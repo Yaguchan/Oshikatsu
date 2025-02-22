@@ -1,10 +1,10 @@
 # Oshikatsu
 動画からショート動画の作成を行うツールです。
-[make_short.pdf](https://github.com/user-attachments/files/18920076/make_short.pdf)
+![Image](https://github.com/user-attachments/assets/6fc71e67-caf2-405a-9a5c-ef1a5c6e659e)
 1. 顔識別モデルの学習
 
 2. 動画の中に出現するメンバーのトラッキング情報を獲得し、メンバーごとの動画における出現
-[segmentation.pdf](https://github.com/user-attachments/files/18920077/segmentation.pdf)
+![Image](https://github.com/user-attachments/assets/d52ef743-e9e1-4609-8ec6-deb9f0c22bdd)
 
 
 
