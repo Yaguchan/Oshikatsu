@@ -13,7 +13,7 @@
 必要なものを以下URLからダウンロードしてください
 <details><summary>ダウンロード</summary>
 
-・[YOLOv8 weights](https://github.com/ultralytics/ultralytics)  
+・[YOLOv11 weights](https://github.com/ultralytics/ultralytics)  
 ・[Tracking Model](https://github.com/ultralytics/ultralytics/tree/main/ultralytics/cfg/trackers)
 
 </details>
@@ -27,7 +27,7 @@ conda env create -f env.yaml
 <details><summary>設定項目</summary>
 
 ・`MOVNAME`             ：movie name (data/mp4/MOVNAME.mp4)  
-・`YOLO_WEIGHTS`        ：YOLOv8 weights (yolov8X.pt)  
+・`YOLO_WEIGHTS`        ：YOLO11 weights (yolo11X.pt)  
 ・`FACENET_WEIGHTS`     ：FaceNet weights (facenet_X.pt)  
 ・`TRACKING_YAML`       ：Tracking Model (botsort or bytetrack.yaml)  
 ・`MEMBER_LIST`         ：メンバーのリスト  
@@ -37,11 +37,7 @@ conda env create -f env.yaml
 
 </details>
 
-セグメンテーション無しver
-```
-bash run/run.sh
-```
-セグメンテーション有りver
+実行
 ```
 bash run/run_seg.sh
 ```
