@@ -41,7 +41,7 @@ def cut_img(image, seg_mask):
     cropped_image = masked_image[y:y+h, x:x+w]
     # cv2.imwrite(f'img/{x}.jpg', image[y:y+h, x:x+w])
     # cv2.imwrite(f'img/mask.jpg', cropped_image)
-    return cropped_image
+    return cropped_image, (x, y)
 
 
 def is_face_facing_forward(landmarks, threshold=15):
