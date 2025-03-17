@@ -10,10 +10,10 @@
 
 ## 実行
 ### 環境構築
-必要なものを以下URLからダウンロードしてください
+必要なものを以下URLからダウンロードしてください！
 <details><summary>ダウンロード</summary>
 
-・[YOLOv11 weights](https://github.com/ultralytics/ultralytics)  
+・[YOLO11 weights](https://github.com/ultralytics/ultralytics)  
 ・[Tracking Model](https://github.com/ultralytics/ultralytics/tree/main/ultralytics/cfg/trackers)
 
 </details>
