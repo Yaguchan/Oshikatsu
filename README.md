@@ -32,6 +32,7 @@ conda env create -f env.yaml
 ・`TRACKING_YAML`       ：Tracking Model (botsort or bytetrack.yaml)  
 ・`MEMBER_LIST`         ：メンバーのリスト  
 ・`MEMBER_ENJP_LIST`    ：メンバーの名前の日本語/英語データ  
+・`MEMBER_NAME`         ：切り抜くメンバーの名前
 ・`FONT_PATH`           ：使用するフォント  
 ・`DEVICE`              ：cuda or mps or cpu  
 
